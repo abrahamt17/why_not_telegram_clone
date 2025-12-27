@@ -1,0 +1,904 @@
+{
+    "name": "Sample User",
+    "type": "personal_chat",
+    "id": 123456789,
+    "messages": [
+        {
+            "id": 1,
+            "type": "message",
+            "date": "2023-01-15T10:00:00",
+            "date_unixtime": "1673773200",
+            "from": "User A",
+            "from_id": "user111111111",
+            "file": "video_files/animation_1@sample.mp4",
+            "media_type": "animation",
+            "width": 480,
+            "height": 480,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 2,
+            "type": "message",
+            "date": "2023-01-15T10:07:00",
+            "date_unixtime": "1673773620",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "video": "video_files/video_2@sample.mp4",
+            "width": 1280,
+            "height": 1080,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 3,
+            "type": "message",
+            "date": "2023-01-15T10:12:00",
+            "date_unixtime": "1673773920",
+            "from": "User A",
+            "from_id": "user111111111",
+            "file": "voice_messages/audio_3@sample.ogg",
+            "media_type": "voice_message",
+            "mime_type": "audio/ogg",
+            "duration_seconds": 45,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 4,
+            "type": "message",
+            "date": "2023-01-15T10:21:00",
+            "date_unixtime": "1673774460",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "file": "voice_messages/audio_4@sample.ogg",
+            "media_type": "voice_message",
+            "mime_type": "audio/ogg",
+            "duration_seconds": 58,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 5,
+            "type": "message",
+            "date": "2023-01-15T10:29:00",
+            "date_unixtime": "1673774940",
+            "from": "User A",
+            "from_id": "user111111111",
+            "file": "voice_messages/audio_5@sample.ogg",
+            "media_type": "voice_message",
+            "mime_type": "audio/ogg",
+            "duration_seconds": 30,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 6,
+            "type": "message",
+            "date": "2023-01-15T10:27:00",
+            "date_unixtime": "1673774820",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "text": "Great idea! When works for you?",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Great idea! When works for you?"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "type": "message",
+            "date": "2023-01-15T10:34:00",
+            "date_unixtime": "1673775240",
+            "from": "User A",
+            "from_id": "user111111111",
+            "reply_to_message_id": 5,
+            "file": "voice_messages/audio_1@sample.ogg",
+            "media_type": "voice_message",
+            "mime_type": "audio/ogg",
+            "duration_seconds": 34,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 8,
+            "type": "message",
+            "date": "2023-01-15T10:40:00",
+            "date_unixtime": "1673775600",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "text": "Absolutely, let's schedule a meeting.",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Absolutely, let's schedule a meeting."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "type": "message",
+            "date": "2023-01-15T10:46:00",
+            "date_unixtime": "1673775960",
+            "from": "User A",
+            "from_id": "user111111111",
+            "reply_to_message_id": 6,
+            "file": "video_files/animation_1@sample.mp4",
+            "media_type": "animation",
+            "width": 640,
+            "height": 480,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 10,
+            "type": "message",
+            "date": "2023-01-15T10:50:00",
+            "date_unixtime": "1673776200",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "text": "What are you up to this weekend?",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "What are you up to this weekend?"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "type": "message",
+            "date": "2023-01-15T10:50:00",
+            "date_unixtime": "1673776200",
+            "from": "User A",
+            "from_id": "user111111111",
+            "photo": "photos/photo_1@sample.jpg",
+            "width": 800,
+            "height": 1024,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 12,
+            "type": "message",
+            "date": "2023-01-15T10:56:00",
+            "date_unixtime": "1673776560",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "reply_to_message_id": 9,
+            "photo": "photos/photo_2@sample.jpg",
+            "width": 640,
+            "height": 1280,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 13,
+            "type": "message",
+            "date": "2023-01-15T11:00:00",
+            "date_unixtime": "1673776800",
+            "from": "User A",
+            "from_id": "user111111111",
+            "photo": "photos/photo_3@sample.jpg",
+            "width": 800,
+            "height": 640,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 14,
+            "type": "message",
+            "date": "2023-01-15T11:08:00",
+            "date_unixtime": "1673777280",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "file": "video_files/animation_2@sample.mp4",
+            "media_type": "animation",
+            "width": 640,
+            "height": 480,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 15,
+            "type": "message",
+            "date": "2023-01-15T11:14:00",
+            "date_unixtime": "1673777640",
+            "from": "User A",
+            "from_id": "user111111111",
+            "reply_to_message_id": 9,
+            "file": "stickers/sticker_7.webp",
+            "thumbnail": "stickers/sticker_7_thumb.jpg",
+            "media_type": "sticker",
+            "sticker_emoji": "\u2728",
+            "width": 512,
+            "height": 512,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 16,
+            "type": "message",
+            "date": "2023-01-15T11:18:00",
+            "date_unixtime": "1673777880",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "reply_to_message_id": 13,
+            "video": "video_files/video_1@sample.mp4",
+            "width": 1920,
+            "height": 1080,
+            "text": "Here's a video!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Here's a video!"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "type": "message",
+            "date": "2023-01-15T11:27:00",
+            "date_unixtime": "1673778420",
+            "from": "User A",
+            "from_id": "user111111111",
+            "file": "voice_messages/audio_5@sample.ogg",
+            "media_type": "voice_message",
+            "mime_type": "audio/ogg",
+            "duration_seconds": 40,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 18,
+            "type": "message",
+            "date": "2023-01-15T11:28:00",
+            "date_unixtime": "1673778480",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "file": "video_files/animation_2@sample.mp4",
+            "media_type": "animation",
+            "width": 640,
+            "height": 640,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 19,
+            "type": "message",
+            "date": "2023-01-15T11:38:00",
+            "date_unixtime": "1673779080",
+            "from": "User A",
+            "from_id": "user111111111",
+            "video": "video_files/video_4@sample.mp4",
+            "width": 640,
+            "height": 720,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 20,
+            "type": "message",
+            "date": "2023-01-15T11:40:00",
+            "date_unixtime": "1673779200",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "file": "voice_messages/audio_2@sample.ogg",
+            "media_type": "voice_message",
+            "mime_type": "audio/ogg",
+            "duration_seconds": 7,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 21,
+            "type": "message",
+            "date": "2023-01-15T11:44:00",
+            "date_unixtime": "1673779440",
+            "from": "User A",
+            "from_id": "user111111111",
+            "video": "video_files/video_1@sample.mp4",
+            "width": 640,
+            "height": 360,
+            "text": "Here's a video!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Here's a video!"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "type": "message",
+            "date": "2023-01-15T11:53:00",
+            "date_unixtime": "1673779980",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "reply_to_message_id": 16,
+            "text": "Let me know if you need anything else.",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Let me know if you need anything else."
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "type": "message",
+            "date": "2023-01-15T11:51:00",
+            "date_unixtime": "1673779860",
+            "from": "User A",
+            "from_id": "user111111111",
+            "reply_to_message_id": 16,
+            "photo": "photos/photo_3@sample.jpg",
+            "width": 1024,
+            "height": 480,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 24,
+            "type": "message",
+            "date": "2023-01-15T11:58:00",
+            "date_unixtime": "1673780280",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "photo": "photos/photo_4@sample.jpg",
+            "width": 800,
+            "height": 640,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 25,
+            "type": "message",
+            "date": "2023-01-15T12:10:00",
+            "date_unixtime": "1673781000",
+            "from": "User A",
+            "from_id": "user111111111",
+            "photo": "photos/photo_5@sample.jpg",
+            "width": 640,
+            "height": 640,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 26,
+            "type": "message",
+            "date": "2023-01-15T12:11:00",
+            "date_unixtime": "1673781060",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "file": "files/presentation.pptx",
+            "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "text": "Here's the presentation.pptx file",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Here's the presentation.pptx file"
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "type": "message",
+            "date": "2023-01-15T12:16:00",
+            "date_unixtime": "1673781360",
+            "from": "User A",
+            "from_id": "user111111111",
+            "video": "video_files/video_2@sample.mp4",
+            "width": 640,
+            "height": 720,
+            "text": "Here's a video!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Here's a video!"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "type": "message",
+            "date": "2023-01-15T12:25:00",
+            "date_unixtime": "1673781900",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "text": "Absolutely, let's schedule a meeting.",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Absolutely, let's schedule a meeting."
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "type": "message",
+            "date": "2023-01-15T12:20:00",
+            "date_unixtime": "1673781600",
+            "from": "User A",
+            "from_id": "user111111111",
+            "reply_to_message_id": 15,
+            "video": "video_files/video_4@sample.mp4",
+            "width": 640,
+            "height": 360,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 30,
+            "type": "message",
+            "date": "2023-01-15T12:29:00",
+            "date_unixtime": "1673782140",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "file": "stickers/sticker_6.webp",
+            "thumbnail": "stickers/sticker_6_thumb.jpg",
+            "media_type": "sticker",
+            "sticker_emoji": "\ud83c\udf1f",
+            "width": 512,
+            "height": 512,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 31,
+            "type": "message",
+            "date": "2023-01-15T12:38:00",
+            "date_unixtime": "1673782680",
+            "from": "User A",
+            "from_id": "user111111111",
+            "reply_to_message_id": 26,
+            "video": "video_files/video_1@sample.mp4",
+            "width": 1280,
+            "height": 360,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 32,
+            "type": "message",
+            "date": "2023-01-15T12:37:00",
+            "date_unixtime": "1673782620",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "file": "stickers/sticker_8.webp",
+            "thumbnail": "stickers/sticker_8_thumb.jpg",
+            "media_type": "sticker",
+            "sticker_emoji": "\ud83d\udc4d",
+            "width": 512,
+            "height": 512,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 33,
+            "type": "message",
+            "date": "2023-01-15T12:49:00",
+            "date_unixtime": "1673783340",
+            "from": "User A",
+            "from_id": "user111111111",
+            "video": "video_files/video_3@sample.mp4",
+            "width": 640,
+            "height": 720,
+            "text": "Here's a video!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Here's a video!"
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "type": "message",
+            "date": "2023-01-15T12:52:00",
+            "date_unixtime": "1673783520",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "text": "Glad I could assist!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Glad I could assist!"
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "type": "message",
+            "date": "2023-01-15T12:50:00",
+            "date_unixtime": "1673783400",
+            "from": "User A",
+            "from_id": "user111111111",
+            "reply_to_message_id": 19,
+            "text": "Absolutely, let's schedule a meeting.",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Absolutely, let's schedule a meeting."
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "type": "message",
+            "date": "2023-01-15T12:59:00",
+            "date_unixtime": "1673783940",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "photo": "photos/photo_6@sample.jpg",
+            "width": 640,
+            "height": 1024,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 37,
+            "type": "message",
+            "date": "2023-01-15T13:03:00",
+            "date_unixtime": "1673784180",
+            "from": "User A",
+            "from_id": "user111111111",
+            "photo": "photos/photo_7@sample.jpg",
+            "width": 480,
+            "height": 640,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 38,
+            "type": "message",
+            "date": "2023-01-15T13:09:00",
+            "date_unixtime": "1673784540",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "file": "voice_messages/audio_2@sample.ogg",
+            "media_type": "voice_message",
+            "mime_type": "audio/ogg",
+            "duration_seconds": 66,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 39,
+            "type": "message",
+            "date": "2023-01-15T13:11:00",
+            "date_unixtime": "1673784660",
+            "from": "User A",
+            "from_id": "user111111111",
+            "file": "stickers/sticker_7.webp",
+            "thumbnail": "stickers/sticker_7_thumb.jpg",
+            "media_type": "sticker",
+            "sticker_emoji": "\u2764\ufe0f",
+            "width": 512,
+            "height": 512,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 40,
+            "type": "message",
+            "date": "2023-01-15T13:24:00",
+            "date_unixtime": "1673785440",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "reply_to_message_id": 34,
+            "file": "video_files/animation_4@sample.mp4",
+            "media_type": "animation",
+            "width": 640,
+            "height": 480,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 41,
+            "type": "message",
+            "date": "2023-01-15T13:30:00",
+            "date_unixtime": "1673785800",
+            "from": "User A",
+            "from_id": "user111111111",
+            "video": "video_files/video_1@sample.mp4",
+            "width": 1280,
+            "height": 1080,
+            "text": "Here's a video!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Here's a video!"
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "type": "message",
+            "date": "2023-01-15T13:26:00",
+            "date_unixtime": "1673785560",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "text": "Looking forward to it!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Looking forward to it!"
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "type": "message",
+            "date": "2023-01-15T13:39:00",
+            "date_unixtime": "1673786340",
+            "from": "User A",
+            "from_id": "user111111111",
+            "reply_to_message_id": 42,
+            "file": "stickers/sticker_3.webp",
+            "thumbnail": "stickers/sticker_3_thumb.jpg",
+            "media_type": "sticker",
+            "sticker_emoji": "\u2764\ufe0f",
+            "width": 512,
+            "height": 512,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 44,
+            "type": "message",
+            "date": "2023-01-15T13:38:00",
+            "date_unixtime": "1673786280",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "reply_to_message_id": 10,
+            "video": "video_files/video_4@sample.mp4",
+            "width": 640,
+            "height": 1080,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 45,
+            "type": "message",
+            "date": "2023-01-15T13:40:00",
+            "date_unixtime": "1673786400",
+            "from": "User A",
+            "from_id": "user111111111",
+            "file": "stickers/sticker_5.webp",
+            "thumbnail": "stickers/sticker_5_thumb.jpg",
+            "media_type": "sticker",
+            "sticker_emoji": "\ud83d\udc4d",
+            "width": 512,
+            "height": 512,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 46,
+            "type": "message",
+            "date": "2023-01-15T13:46:00",
+            "date_unixtime": "1673786760",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "photo": "photos/photo_6@sample.jpg",
+            "width": 480,
+            "height": 640,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 47,
+            "type": "message",
+            "date": "2023-01-15T13:54:00",
+            "date_unixtime": "1673787240",
+            "from": "User A",
+            "from_id": "user111111111",
+            "file": "stickers/sticker_7.webp",
+            "thumbnail": "stickers/sticker_7_thumb.jpg",
+            "media_type": "sticker",
+            "sticker_emoji": "\ud83c\udf1f",
+            "width": 512,
+            "height": 512,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 48,
+            "type": "message",
+            "date": "2023-01-15T14:03:00",
+            "date_unixtime": "1673787780",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "photo": "photos/photo_8@sample.jpg",
+            "width": 1024,
+            "height": 1024,
+            "text": "Look at this!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Look at this!"
+                }
+            ]
+        },
+        {
+            "id": 49,
+            "type": "message",
+            "date": "2023-01-15T14:00:00",
+            "date_unixtime": "1673787600",
+            "from": "User A",
+            "from_id": "user111111111",
+            "text": "That's wonderful to hear!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "That's wonderful to hear!"
+                }
+            ]
+        },
+        {
+            "id": 50,
+            "type": "message",
+            "date": "2023-01-15T14:08:00",
+            "date_unixtime": "1673788080",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "reply_to_message_id": 40,
+            "photo": "photos/photo_10@sample.jpg",
+            "width": 640,
+            "height": 1024,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 51,
+            "type": "message",
+            "date": "2023-01-15T14:12:00",
+            "date_unixtime": "1673788320",
+            "from": "User A",
+            "from_id": "user111111111",
+            "video": "video_files/video_1@sample.mp4",
+            "width": 640,
+            "height": 360,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 52,
+            "type": "message",
+            "date": "2023-01-15T14:15:00",
+            "date_unixtime": "1673788500",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "photo": "photos/photo_2@sample.jpg",
+            "width": 640,
+            "height": 1280,
+            "text": "Check this out!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Check this out!"
+                }
+            ]
+        },
+        {
+            "id": 53,
+            "type": "message",
+            "date": "2023-01-15T14:22:00",
+            "date_unixtime": "1673788920",
+            "from": "User A",
+            "from_id": "user111111111",
+            "reply_to_message_id": 24,
+            "video": "video_files/video_3@sample.mp4",
+            "width": 1280,
+            "height": 720,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 54,
+            "type": "message",
+            "date": "2023-01-15T14:35:00",
+            "date_unixtime": "1673789700",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "text": "Absolutely, let's schedule a meeting.",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Absolutely, let's schedule a meeting."
+                }
+            ]
+        },
+        {
+            "id": 55,
+            "type": "message",
+            "date": "2023-01-15T14:37:00",
+            "date_unixtime": "1673789820",
+            "from": "User A",
+            "from_id": "user111111111",
+            "reply_to_message_id": 22,
+            "text": "Have you seen the latest updates?",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Have you seen the latest updates?"
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "type": "message",
+            "date": "2023-01-15T14:42:00",
+            "date_unixtime": "1673790120",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "file": "video_files/animation_4@sample.mp4",
+            "media_type": "animation",
+            "width": 640,
+            "height": 480,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 57,
+            "type": "message",
+            "date": "2023-01-15T14:50:00",
+            "date_unixtime": "1673790600",
+            "from": "User A",
+            "from_id": "user111111111",
+            "video": "video_files/video_2@sample.mp4",
+            "width": 640,
+            "height": 720,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 58,
+            "type": "message",
+            "date": "2023-01-15T14:49:00",
+            "date_unixtime": "1673790540",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "reply_to_message_id": 30,
+            "file": "video_files/animation_2@sample.mp4",
+            "media_type": "animation",
+            "width": 640,
+            "height": 480,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 59,
+            "type": "message",
+            "date": "2023-01-15T14:50:00",
+            "date_unixtime": "1673790600",
+            "from": "User A",
+            "from_id": "user111111111",
+            "reply_to_message_id": 43,
+            "file": "stickers/sticker_3.webp",
+            "thumbnail": "stickers/sticker_3_thumb.jpg",
+            "media_type": "sticker",
+            "sticker_emoji": "\u2728",
+            "width": 512,
+            "height": 512,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 60,
+            "type": "message",
+            "date": "2023-01-15T14:59:00",
+            "date_unixtime": "1673791140",
+            "from": "Sample User",
+            "from_id": "user123456789",
+            "video": "video_files/video_5@sample.mp4",
+            "width": 1280,
+            "height": 720,
+            "text": "",
+            "text_entities": []
+        }
+    ]
+}

@@ -1,0 +1,890 @@
+{
+    "name": "User 123",
+    "type": "personal_chat",
+    "id": 123123123,
+    "messages": [
+        {
+            "id": 1000,
+            "type": "message",
+            "date": "2023-12-10T16:08:00",
+            "date_unixtime": "1702220880",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "photo": "photos/photo_1@sample.jpg",
+            "width": 800,
+            "height": 800,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1001,
+            "type": "message",
+            "date": "2023-12-10T16:14:00",
+            "date_unixtime": "1702221240",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "photo": "photos/photo_2@sample.jpg",
+            "width": 800,
+            "height": 800,
+            "text": "Look!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Look!"
+                }
+            ]
+        },
+        {
+            "id": 1002,
+            "type": "message",
+            "date": "2023-12-10T16:16:00",
+            "date_unixtime": "1702221360",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "video": "video_files/video_3@sample.mp4",
+            "width": 1920,
+            "height": 360,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1003,
+            "type": "message",
+            "date": "2023-12-10T16:24:00",
+            "date_unixtime": "1702221840",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "photo": "photos/photo_4@sample.jpg",
+            "width": 640,
+            "height": 640,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1004,
+            "type": "message",
+            "date": "2023-12-10T16:22:00",
+            "date_unixtime": "1702221720",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "reply_to_message_id": 1000,
+            "photo": "photos/photo_5@sample.jpg",
+            "width": 640,
+            "height": 480,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1005,
+            "type": "message",
+            "date": "2023-12-10T16:27:00",
+            "date_unixtime": "1702222020",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "text": "Yes, it looks great!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Yes, it looks great!"
+                }
+            ]
+        },
+        {
+            "id": 1006,
+            "type": "message",
+            "date": "2023-12-10T16:31:00",
+            "date_unixtime": "1702222260",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "video": "video_files/video_2@sample.mp4",
+            "width": 1920,
+            "height": 360,
+            "text": "Video!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Video!"
+                }
+            ]
+        },
+        {
+            "id": 1007,
+            "type": "message",
+            "date": "2023-12-10T16:41:00",
+            "date_unixtime": "1702222860",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "file": "files/archive.zip",
+            "mime_type": "application/zip",
+            "text": "File: archive.zip",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "File: archive.zip"
+                }
+            ]
+        },
+        {
+            "id": 1008,
+            "type": "message",
+            "date": "2023-12-10T16:45:00",
+            "date_unixtime": "1702223100",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "reply_to_message_id": 1007,
+            "file": "voice_messages/audio_3@sample.ogg",
+            "media_type": "voice_message",
+            "mime_type": "audio/ogg",
+            "duration_seconds": 92,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1009,
+            "type": "message",
+            "date": "2023-12-10T16:54:00",
+            "date_unixtime": "1702223640",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "text": "Perfect!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Perfect!"
+                }
+            ]
+        },
+        {
+            "id": 1010,
+            "type": "message",
+            "date": "2023-12-10T16:53:00",
+            "date_unixtime": "1702223580",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "reply_to_message_id": 1003,
+            "video": "video_files/video_1@sample.mp4",
+            "width": 640,
+            "height": 360,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1011,
+            "type": "message",
+            "date": "2023-12-10T17:00:00",
+            "date_unixtime": "1702224000",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "file": "stickers/sticker_4.webp",
+            "thumbnail": "stickers/sticker_4_thumb.jpg",
+            "media_type": "sticker",
+            "sticker_emoji": "\ud83d\ude0a",
+            "width": 512,
+            "height": 512,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1012,
+            "type": "message",
+            "date": "2023-12-10T17:06:00",
+            "date_unixtime": "1702224360",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "video": "video_files/video_3@sample.mp4",
+            "width": 640,
+            "height": 720,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1013,
+            "type": "message",
+            "date": "2023-12-10T17:15:00",
+            "date_unixtime": "1702224900",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "file": "voice_messages/audio_2@sample.ogg",
+            "media_type": "voice_message",
+            "mime_type": "audio/ogg",
+            "duration_seconds": 97,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1014,
+            "type": "message",
+            "date": "2023-12-10T17:10:00",
+            "date_unixtime": "1702224600",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "photo": "photos/photo_5@sample.jpg",
+            "width": 640,
+            "height": 480,
+            "text": "Check this!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Check this!"
+                }
+            ]
+        },
+        {
+            "id": 1015,
+            "type": "message",
+            "date": "2023-12-10T17:25:00",
+            "date_unixtime": "1702225500",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "file": "stickers/sticker_8.webp",
+            "thumbnail": "stickers/sticker_8_thumb.jpg",
+            "media_type": "sticker",
+            "sticker_emoji": "\ud83d\udcaf",
+            "width": 512,
+            "height": 512,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1016,
+            "type": "message",
+            "date": "2023-12-10T17:20:00",
+            "date_unixtime": "1702225200",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "photo": "photos/photo_7@sample.jpg",
+            "width": 800,
+            "height": 800,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1017,
+            "type": "message",
+            "date": "2023-12-10T17:26:00",
+            "date_unixtime": "1702225560",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "file": "voice_messages/audio_6@sample.ogg",
+            "media_type": "voice_message",
+            "mime_type": "audio/ogg",
+            "duration_seconds": 46,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1018,
+            "type": "message",
+            "date": "2023-12-10T17:40:00",
+            "date_unixtime": "1702226400",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "reply_to_message_id": 1003,
+            "file": "voice_messages/audio_1@sample.ogg",
+            "media_type": "voice_message",
+            "mime_type": "audio/ogg",
+            "duration_seconds": 5,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1019,
+            "type": "message",
+            "date": "2023-12-10T17:41:00",
+            "date_unixtime": "1702226460",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "file": "video_files/animation_4@sample.mp4",
+            "media_type": "animation",
+            "width": 640,
+            "height": 640,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1020,
+            "type": "message",
+            "date": "2023-12-10T17:40:00",
+            "date_unixtime": "1702226400",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "text": "Glad to help!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Glad to help!"
+                }
+            ]
+        },
+        {
+            "id": 1021,
+            "type": "message",
+            "date": "2023-12-10T17:51:00",
+            "date_unixtime": "1702227060",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "text": "Have you seen the latest?",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Have you seen the latest?"
+                }
+            ]
+        },
+        {
+            "id": 1022,
+            "type": "message",
+            "date": "2023-12-10T17:59:00",
+            "date_unixtime": "1702227540",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "reply_to_message_id": 1015,
+            "video": "video_files/video_3@sample.mp4",
+            "width": 640,
+            "height": 1080,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1023,
+            "type": "message",
+            "date": "2023-12-10T17:56:00",
+            "date_unixtime": "1702227360",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "file": "files/presentation.pptx",
+            "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "text": "File: presentation.pptx",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "File: presentation.pptx"
+                }
+            ]
+        },
+        {
+            "id": 1024,
+            "type": "message",
+            "date": "2023-12-10T18:02:00",
+            "date_unixtime": "1702227720",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "text": "When works for you?",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "When works for you?"
+                }
+            ]
+        },
+        {
+            "id": 1025,
+            "type": "message",
+            "date": "2023-12-10T18:12:00",
+            "date_unixtime": "1702228320",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "file": "stickers/sticker_2.webp",
+            "thumbnail": "stickers/sticker_2_thumb.jpg",
+            "media_type": "sticker",
+            "sticker_emoji": "\ud83d\ude0a",
+            "width": 512,
+            "height": 512,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1026,
+            "type": "message",
+            "date": "2023-12-10T18:13:00",
+            "date_unixtime": "1702228380",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "photo": "photos/photo_7@sample.jpg",
+            "width": 640,
+            "height": 1024,
+            "text": "Look!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Look!"
+                }
+            ]
+        },
+        {
+            "id": 1027,
+            "type": "message",
+            "date": "2023-12-10T18:24:00",
+            "date_unixtime": "1702229040",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "reply_to_message_id": 1002,
+            "text": "Will do!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Will do!"
+                }
+            ]
+        },
+        {
+            "id": 1028,
+            "type": "message",
+            "date": "2023-12-10T18:28:00",
+            "date_unixtime": "1702229280",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "reply_to_message_id": 1021,
+            "photo": "photos/photo_9@sample.jpg",
+            "width": 640,
+            "height": 1280,
+            "text": "Look!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Look!"
+                }
+            ]
+        },
+        {
+            "id": 1029,
+            "type": "message",
+            "date": "2023-12-10T18:26:00",
+            "date_unixtime": "1702229160",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "reply_to_message_id": 1015,
+            "video": "video_files/video_5@sample.mp4",
+            "width": 1920,
+            "height": 360,
+            "text": "Video!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Video!"
+                }
+            ]
+        },
+        {
+            "id": 1030,
+            "type": "message",
+            "date": "2023-12-10T18:34:00",
+            "date_unixtime": "1702229640",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "reply_to_message_id": 1016,
+            "text": "That's wonderful to hear!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "That's wonderful to hear!"
+                }
+            ]
+        },
+        {
+            "id": 1031,
+            "type": "message",
+            "date": "2023-12-10T18:44:00",
+            "date_unixtime": "1702230240",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "reply_to_message_id": 1021,
+            "video": "video_files/video_2@sample.mp4",
+            "width": 1280,
+            "height": 1080,
+            "text": "Video!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Video!"
+                }
+            ]
+        },
+        {
+            "id": 1032,
+            "type": "message",
+            "date": "2023-12-10T18:43:00",
+            "date_unixtime": "1702230180",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "file": "voice_messages/audio_3@sample.ogg",
+            "media_type": "voice_message",
+            "mime_type": "audio/ogg",
+            "duration_seconds": 105,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1033,
+            "type": "message",
+            "date": "2023-12-10T18:55:00",
+            "date_unixtime": "1702230900",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "file": "voice_messages/audio_4@sample.ogg",
+            "media_type": "voice_message",
+            "mime_type": "audio/ogg",
+            "duration_seconds": 55,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1034,
+            "type": "message",
+            "date": "2023-12-10T18:50:00",
+            "date_unixtime": "1702230600",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "photo": "photos/photo_5@sample.jpg",
+            "width": 640,
+            "height": 640,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1035,
+            "type": "message",
+            "date": "2023-12-10T18:57:00",
+            "date_unixtime": "1702231020",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "file": "voice_messages/audio_6@sample.ogg",
+            "media_type": "voice_message",
+            "mime_type": "audio/ogg",
+            "duration_seconds": 18,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1036,
+            "type": "message",
+            "date": "2023-12-10T19:10:00",
+            "date_unixtime": "1702231800",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "photo": "photos/photo_7@sample.jpg",
+            "width": 1024,
+            "height": 1280,
+            "text": "Look!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Look!"
+                }
+            ]
+        },
+        {
+            "id": 1037,
+            "type": "message",
+            "date": "2023-12-10T19:05:00",
+            "date_unixtime": "1702231500",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "video": "video_files/video_3@sample.mp4",
+            "width": 1280,
+            "height": 1080,
+            "text": "Video!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Video!"
+                }
+            ]
+        },
+        {
+            "id": 1038,
+            "type": "message",
+            "date": "2023-12-10T19:16:00",
+            "date_unixtime": "1702232160",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "photo": "photos/photo_9@sample.jpg",
+            "width": 1024,
+            "height": 640,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1039,
+            "type": "message",
+            "date": "2023-12-10T19:24:00",
+            "date_unixtime": "1702232640",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "video": "video_files/video_5@sample.mp4",
+            "width": 1280,
+            "height": 1080,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1040,
+            "type": "message",
+            "date": "2023-12-10T19:30:00",
+            "date_unixtime": "1702233000",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "photo": "photos/photo_1@sample.jpg",
+            "width": 640,
+            "height": 1280,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1041,
+            "type": "message",
+            "date": "2023-12-10T19:27:00",
+            "date_unixtime": "1702232820",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "photo": "photos/photo_2@sample.jpg",
+            "width": 480,
+            "height": 800,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1042,
+            "type": "message",
+            "date": "2023-12-10T19:31:00",
+            "date_unixtime": "1702233060",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "file": "files/document.pdf",
+            "mime_type": "application/pdf",
+            "text": "File: document.pdf",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "File: document.pdf"
+                }
+            ]
+        },
+        {
+            "id": 1043,
+            "type": "message",
+            "date": "2023-12-10T19:44:00",
+            "date_unixtime": "1702233840",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "video": "video_files/video_4@sample.mp4",
+            "width": 1280,
+            "height": 1080,
+            "text": "Video!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Video!"
+                }
+            ]
+        },
+        {
+            "id": 1044,
+            "type": "message",
+            "date": "2023-12-10T19:42:00",
+            "date_unixtime": "1702233720",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "file": "voice_messages/audio_3@sample.ogg",
+            "media_type": "voice_message",
+            "mime_type": "audio/ogg",
+            "duration_seconds": 5,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1045,
+            "type": "message",
+            "date": "2023-12-10T19:48:00",
+            "date_unixtime": "1702234080",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "file": "stickers/sticker_6.webp",
+            "thumbnail": "stickers/sticker_6_thumb.jpg",
+            "media_type": "sticker",
+            "sticker_emoji": "\u2764\ufe0f",
+            "width": 512,
+            "height": 512,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1046,
+            "type": "message",
+            "date": "2023-12-10T19:50:00",
+            "date_unixtime": "1702234200",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "text": "That's wonderful to hear!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "That's wonderful to hear!"
+                }
+            ]
+        },
+        {
+            "id": 1047,
+            "type": "message",
+            "date": "2023-12-10T20:02:00",
+            "date_unixtime": "1702234920",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "reply_to_message_id": 1023,
+            "photo": "photos/photo_8@sample.jpg",
+            "width": 1024,
+            "height": 800,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1048,
+            "type": "message",
+            "date": "2023-12-10T20:05:00",
+            "date_unixtime": "1702235100",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "photo": "photos/photo_9@sample.jpg",
+            "width": 640,
+            "height": 1024,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1049,
+            "type": "message",
+            "date": "2023-12-10T20:05:00",
+            "date_unixtime": "1702235100",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "photo": "photos/photo_10@sample.jpg",
+            "width": 480,
+            "height": 800,
+            "text": "Check this!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Check this!"
+                }
+            ]
+        },
+        {
+            "id": 1050,
+            "type": "message",
+            "date": "2023-12-10T20:18:00",
+            "date_unixtime": "1702235880",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "text": "We should discuss this.",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "We should discuss this."
+                }
+            ]
+        },
+        {
+            "id": 1051,
+            "type": "message",
+            "date": "2023-12-10T20:24:00",
+            "date_unixtime": "1702236240",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "photo": "photos/photo_2@sample.jpg",
+            "width": 1024,
+            "height": 1280,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1052,
+            "type": "message",
+            "date": "2023-12-10T20:25:00",
+            "date_unixtime": "1702236300",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "photo": "photos/photo_3@sample.jpg",
+            "width": 1024,
+            "height": 480,
+            "text": "Check this!",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "Check this!"
+                }
+            ]
+        },
+        {
+            "id": 1053,
+            "type": "message",
+            "date": "2023-12-10T20:29:00",
+            "date_unixtime": "1702236540",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "file": "video_files/animation_2@sample.mp4",
+            "media_type": "animation",
+            "width": 640,
+            "height": 480,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1054,
+            "type": "message",
+            "date": "2023-12-10T20:39:00",
+            "date_unixtime": "1702237140",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "text": "This is helpful.",
+            "text_entities": [
+                {
+                    "type": "plain",
+                    "text": "This is helpful."
+                }
+            ]
+        },
+        {
+            "id": 1055,
+            "type": "message",
+            "date": "2023-12-10T20:43:00",
+            "date_unixtime": "1702237380",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "file": "stickers/sticker_8.webp",
+            "thumbnail": "stickers/sticker_8_thumb.jpg",
+            "media_type": "sticker",
+            "sticker_emoji": "\u2764\ufe0f",
+            "width": 512,
+            "height": 512,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1056,
+            "type": "message",
+            "date": "2023-12-10T20:48:00",
+            "date_unixtime": "1702237680",
+            "from": "User 123",
+            "from_id": "user123123123",
+            "reply_to_message_id": 1010,
+            "photo": "photos/photo_7@sample.jpg",
+            "width": 1024,
+            "height": 1024,
+            "text": "",
+            "text_entities": []
+        },
+        {
+            "id": 1057,
+            "type": "message",
+            "date": "2023-12-10T20:51:00",
+            "date_unixtime": "1702237860",
+            "from": "Contact",
+            "from_id": "user666666666",
+            "photo": "photos/photo_8@sample.jpg",
+            "width": 640,
+            "height": 1280,
+            "text": "",
+            "text_entities": []
+        }
+    ]
+}

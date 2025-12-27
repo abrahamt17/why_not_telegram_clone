@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Messenger</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h1>Telegram</h1>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search chats..." />
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="chat-list" id="chatList">
+                <div class="loading">Loading chats...</div>
+            </div>
+        </div>
+
+        <!-- Main Chat Area -->
+        <div class="chat-area" id="chatArea">
+            <div class="empty-state">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <h2>Select a chat to start</h2>
+                <p>Choose a conversation from the sidebar</p>
+            </div>
+        </div>
+        
+        <!-- Chat Search Overlay -->
+        <div class="chat-search-overlay" id="chatSearchOverlay" style="display: none;">
+            <div class="chat-search-container">
+                <div class="chat-search-header">
+                    <input type="text" id="chatSearchInput" placeholder="Search in conversation..." />
+                    <button class="chat-search-close" onclick="closeChatSearch()">✕</button>
+                </div>
+                <div class="chat-search-results" id="chatSearchResults"></div>
+                <div class="chat-search-nav">
+                    <button id="prevResult" onclick="navigateSearch(-1)">↑ Previous</button>
+                    <span id="searchResultCount">0 / 0</span>
+                    <button id="nextResult" onclick="navigateSearch(1)">Next ↓</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
